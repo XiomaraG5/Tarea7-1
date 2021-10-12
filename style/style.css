@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background: #794D8C;
+    font-family:Georgia, 'Times New Roman', serif
+}
+.header {
+    display: flex;
+    justify-content:center;
+    padding: 1%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.header > h1 {
+    font-size: 30px;
+    color: white;
+    width: 50%;
+}
+nav {
+    flex-basis: 60%;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 14px;
+}
+ nav ul li:hover {
+    border: 1px solid white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.Publicacion{
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-around;
+    font-family:  'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 12px;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    max-width: 600px;
+    margin: auto;
+}
+article {
+    text-align: center;
+    margin-top: 50px;
+}
+main h2, article h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #794D8C;
+    margin: 20px;
+}
+main p, article p {
+    font-family:  'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 14px;
+    padding: 1%;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #794D8C;
+    color: white;
+    padding: 1%;
+    font-family:  'Lucida Sans Unicode', Arial, sans-serif;
+}
+.footer {
+    bottom: 0px;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:  'Lucida Sans Unicode', Arial, sans-serif;
+}
